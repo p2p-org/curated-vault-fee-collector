@@ -11,10 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
 
       - name: Install Foundry
-        uses: onbjerg/foundry-toolchain@v1
+        uses: onbjerg/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09 # v1
         with:
           version: nightly
 
@@ -62,10 +62,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
 
       - name: Install Foundry
-        uses: onbjerg/foundry-toolchain@v1
+        uses: onbjerg/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09 # v1
         with:
           version: nightly
 
@@ -78,10 +78,10 @@ jobs:
   fmt:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@a37ce9120846195fa4ece8f58b268e6043cb2f26 # v3
 
       - name: Install Foundry
-        uses: onbjerg/foundry-toolchain@v1
+        uses: onbjerg/foundry-toolchain@908c540300062bd5a7e473851cdb4282204cee09 # v1
         with:
           version: nightly
 
